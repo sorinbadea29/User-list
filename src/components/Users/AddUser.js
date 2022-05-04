@@ -35,10 +35,6 @@ const AddUser = (props) => {
       return;
     }
 
-    // const user = {
-    //   name: enteredUsername,
-    //   age: enteredAge
-    // }
 
     props.onAdduser(enteredUsername, enteredAge);
 
